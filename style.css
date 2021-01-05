@@ -743,9 +743,6 @@ footer a:hover {
     nav {
         background-color: #004085 !important;
     }
-    .slantedDivA{
-        margin-top: 500px; /* spacing from non slanted div */
-      }
 }
 
 /* 4k monitor */
