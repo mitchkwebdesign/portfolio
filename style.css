@@ -87,7 +87,7 @@ nav.scrolled {
 
  /* whole page background */
 .banner {
-    background-image: url('../Images/computer.jpg');
+    background-image: url('../images/computer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.69);
