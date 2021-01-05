@@ -741,7 +741,7 @@ footer a:hover {
         height: 100vh;
     }
     .slantedDivA{
-        margin-top: 200px; /* spacing from non slanted div */
+        margin-top: 20%; /* spacing from non slanted div */
       }
 }
 
