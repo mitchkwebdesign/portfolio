@@ -1,0 +1,244 @@
+html, body {
+    padding:0px;
+    margin:0px;
+ }
+ body {
+     overflow-x: hidden;
+     font-family: 'Lato', sans-serif;
+ }
+ h1, h2, h3 {
+     margin: auto;
+     text-align: center;
+     padding: 10px;
+ }
+.logo {
+    height: 50px;
+}
+nav {
+   background-color: #f8f9fa00 !important;
+   color: #fff;
+   font-weight: 400;
+}
+a.nav-link {
+    color: rgb(255 255 255 / 72%) !important;
+}
+a.nav-link:hover {
+    border-bottom: solid 2px rgba(255, 255, 255, 70%);
+    padding-bottom: 2px;
+}
+.active>.nav-link {
+    color: rgba(255, 255, 255 ) !important;
+    font-weight: 600;
+}
+.login {
+    border: 1px solid;
+    border-radius: 20%;
+}
+/* .bounce {
+    animation: bounce 2s;
+    animation-delay: 5s;
+  } */
+#header-img {
+    background-image: url(/Projects/SnappyCast-Website/Images/snappycast-desktop.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    margin-top: -150px;
+}
+.iphone {
+    height: 500px;
+    padding: 10px;
+}
+.iphone-container {
+    margin: auto;
+    text-align: center;
+}
+#info {
+    padding: 50px;
+}
+#services {
+    text-align: center;
+    background-color:  #f8f9fa;
+    padding: 50px;
+}
+#services p{
+    text-align: left;
+}
+#services h3{
+    border-bottom: 3px solid #92b1d6;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.page-header {
+    color: rgb(128, 128, 128);
+    border-bottom: 1px solid rgb(128, 128, 128);
+    width: 150px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+#services h1, #services h2, #services h3{
+    font-weight:400;
+}
+.icons {
+    color: #fff;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: #92b1d6;
+    padding: 25px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+}
+.desktop-icons {
+    color: #fff;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: #b3849e;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    padding-top: 40px;
+    padding-left: 34px;
+}
+.tablet-icons {
+    color: #fff;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: #b3849e;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    padding-top: 38px;
+    padding-left: 42px;
+}
+.mobile-icons {
+    color: #fff;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: #b3849e;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    padding-top: 38px;
+    padding-left: 55px;
+}
+.platform-section {
+    padding: 20px;
+}
+.platform-text {
+    padding: 20px;
+}
+.platform-header {
+    padding: 50px;
+}
+.platforms {
+    padding: 20px;
+}
+.card-header {
+    background-color: #ffffff00;
+}
+div#contact {
+    padding: 100px;
+    background-color: #f8f9fa;
+}
+.submit-btn {
+    background-color: #92b1d6;
+    border: none;
+}
+.submit-btn:hover {
+    background-color: #859ebd;
+}
+.contact-hdr {
+    margin-bottom: 50px;
+}
+form {
+    padding: 100px 300px;
+    background-color:#f8f9fa;
+}
+footer {
+    background-color: #333333;
+    padding: 5px 200px;
+}
+.footer-link {
+    text-align: center;
+}
+footer a{
+    color:#b3849e;
+}
+footer a:hover{
+    color:#9c7289;
+    text-decoration: none;
+}
+.footer-copyright {
+    color:#adb5bd;
+}
+.footer-spacer {
+    border-bottom: 2px solid #495057;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    form {
+        padding: 50px;
+    }
+ }
+
+/*  Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .iphone {
+        height: 400px;
+    }
+    .info {
+        padding: 10px;
+    }
+    nav {
+        background-color: #f8f9fa !important
+     }
+     div#contact {
+        padding: 10px;
+    }
+    form {
+        padding: 50px;
+    }
+ }
+/* Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) { 
+    .iphone {
+    height: 400px;
+    margin: auto;
+    } 
+    nav {
+        background: linear-gradient(90deg, rgba(168,160,206,1) 0%, rgba(113,195,218,1) 100%);
+    }
+     a.nav-link{
+        padding: 10px;
+     }
+     a.nav-link:hover {
+        background-color: rgb(160 153 193);
+        /* padding-bottom: 0px; */
+        border-bottom: none;
+        padding: 10px;
+    }
+    .login {
+        border:none;
+        border-radius: 0%;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+     div#contact {
+        padding: 50px;
+    }
+    .platform-text {
+        padding: 5px;
+    }
+    form {
+        padding: 100px 200px;
+    }
+}
