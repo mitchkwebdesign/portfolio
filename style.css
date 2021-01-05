@@ -786,7 +786,7 @@ footer a:hover {
 @media (min-width: 5000px) {
     /* home page */
     .slantedDivA{
-        margin-top: 500px; /* spacing from non slanted div */
+        margin-top: 800px; /* spacing from non slanted div */
       }
 
 }
