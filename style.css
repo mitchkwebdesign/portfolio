@@ -782,7 +782,14 @@ footer a:hover {
 
 }
 
+/* 4k monitor */
+@media (min-width: 5000px) {
+    /* home page */
+    .slantedDivA{
+        margin-top: 500px; /* spacing from non slanted div */
+      }
 
+}
 
 
 
