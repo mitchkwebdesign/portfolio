@@ -224,6 +224,8 @@ i {
 .project-section {
     margin: 0 auto;
     padding-top: 5%;
+        padding-right: 100px;
+        padding-left: 100px;
 }
 .projects-page-header {
     text-align: center;
