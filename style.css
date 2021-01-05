@@ -224,8 +224,6 @@ i {
 .project-section {
     margin: 0 auto;
     padding-top: 5%;
-    padding-right: 100px !important;
-    padding-left: 100px !important;
 }
 .projects-page-header {
     text-align: center;
@@ -649,10 +647,8 @@ footer a:hover {
         font-size: 2rem;
     } 
     .project-section {
-    margin: 0 auto;
-    padding-top: 5%;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 }
@@ -702,6 +698,11 @@ footer a:hover {
         font-size: 25px;
         list-style: none;
     }
+        .project-section {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
     }
 
 /* Large devices (desktops, 992px and up) */
