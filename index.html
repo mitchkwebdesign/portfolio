@@ -371,9 +371,6 @@ $(document).ready(function(){
   });
 
   // close hamburger menu after click a
-  $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar').collapse('hide');
-});
 $('.navbar-nav li a').on('click', function(){
     if(!$( this ).hasClass('dropdown-toggle')){
         $('.navbar-toggler').collapse('hide');
@@ -387,6 +384,18 @@ $('.nav-link').on('click',function() {
 $('.navbar-collapse a').click(function(){
             $(".navbar-collapse").collapse('hide');
         });
+
+
+$('.navbar-collapse').on('click', function () {
+
+$('.menu').toggleClass('open');
+
+});
+
+$( '.menu a' ).on("click", function(){
+$('.menu').hide();
+});
+
 </script>
 
 
