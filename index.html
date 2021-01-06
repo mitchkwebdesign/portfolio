@@ -370,30 +370,10 @@ $(document).ready(function(){
     $(".load-wrapper").fadeOut("slow");
   });
 
-// close menu on click event
-  $('.hamburger').on('click', function () {
-  $('.menu').addClass('open');
-});
-
-$( '.menu a' ).on("click", function(){
-  $('.menu').removeClass('open');
-});
-
-function hideMenu(){
-  let menuOpen = document.querySelector('.toggler').checked;
-
-  if(menuOpen = true){
-    document.querySelector('.toggler').checked = false;
-  }
-  }
-  window.addEventListener("scroll", hideMenu);
-
-
   // close hamburger menu after click a
-$( '.menu li a' ).on("click", function(){
-  $('#navbar').click();
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
 });
-
 </script>
 
 
