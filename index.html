@@ -371,20 +371,6 @@ $(document).ready(function(){
   });
 
   // close hamburger menu after click a
-$('.navbar-nav li a').on('click', function(){
-    if(!$( this ).hasClass('dropdown-toggle')){
-        $('.navbar-toggler').collapse('hide');
-    }
-});
-
-$('.nav-link').on('click',function() {
-  $('.collapse').collapse('hide');
-});
-
-$('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-        });
-
 
 $('.navbar-collapse').on('click', function () {
 
