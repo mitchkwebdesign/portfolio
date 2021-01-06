@@ -376,12 +376,12 @@ $(document).ready(function(){
 });
 $('.navbar-nav li a').on('click', function(){
     if(!$( this ).hasClass('dropdown-toggle')){
-        $('.navbar-collapse').collapse('hide');
+        $('.navbar-toggler').collapse('hide');
     }
 });
 
 $('.nav-link').on('click',function() {
-  $('.navbar-collapse').collapse('hide');
+  $('.collapse').collapse('hide');
 });
 
 $('.navbar-collapse a').click(function(){
