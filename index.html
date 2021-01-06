@@ -369,6 +369,15 @@ $(document).ready(function(){
   $(window).on("load",function() {
     $(".load-wrapper").fadeOut("slow");
   });
+
+// close menu on click
+  $('.hamburger').on('click', function () {
+  $('.menu').addClass('open');
+});
+
+$( '.menu a' ).on("click", function(){
+  $('.menu').removeClass('open');
+});
 </script>
 
 
