@@ -191,7 +191,7 @@
                 <i class="fab fa-artstation skills-icon"></i>
               </div>
               <h2>Aesthetically Pleasing</h2>
-              <p>Making your website visually stunning and attention grabbing from the first click.</p>
+              <p>Ensuring your website is visually stunning and attention-grabbing from the very first click.</p>
             </div>
         </div>
           <a href="#more-skills">
@@ -387,6 +387,13 @@ function hideMenu(){
   }
   }
   window.addEventListener("scroll", hideMenu);
+
+
+  // close hamburger menu after click a
+$( '.menu li a' ).on("click", function(){
+  $('#navbar').click();
+});
+
 </script>
 
 
